@@ -162,7 +162,7 @@ def meyexudi():
   uuid = "APOLLO("+str(os.getuid())+"(POGI)"+str(os.getuid())+")JAS"
   id = '-'.join(uuid)
   try:
-    httpCaht = requests.get('/storage/emulated/0/key.txt').text
+    httpCaht = requests.get('https://github.com/jrafael3205/test/blob/main/key.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
