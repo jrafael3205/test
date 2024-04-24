@@ -238,7 +238,7 @@ python FILE.py''')
        # 
 #---------------------[ USER - AGENT ] -------------------#
 def uaxxx():
-    ua='[FBAN/FB4A;FBAV/191.0.0.18.246;FBBV/944784305;FBAN/FB4A;FBAV/191.0.0.18.246;FBBV/944784305;FBDM/{density=3.0,width=1920,height=1920};FBLC/en_US;FBRV/719023691;FBCR/Verizon;FBMF/Samsung;FBBD/Galaxy S10+;FBPN/com.facebook.lite;FBDV/SM-G975U;FBSV/9;FBOP/5;FBCA/armeabi-v7a;]'
+    ua='[FBAN/FB4A;FBAV/411.0.0.97.110;FBPN/com.facebook.lite;FBLC/ja_JP;FBBV/315835954;FBCR/Tri;FBMF/OPPO;FBBD/OPPO;FBDV/CPH2199;FBSV/9;FBCA/armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;]'
     return ua
 def method_crack():
     global methods
