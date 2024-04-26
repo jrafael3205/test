@@ -938,7 +938,7 @@ def rcrack(uid,pwx,tl):
         loop+=1
         sys.stdout.write(f'\r\033[1;92m[JAS]\033[1;92m] %s|\33[1;31m[OK]:- %s \r'%(loop,len(oks))),
         sys.stdout.flush()
-    except:
+except:
         pass 
 ############            
 
@@ -956,7 +956,7 @@ def main_apv():
             subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
             print('-----------------------------------------------------\n Run again with permission from admin')
             main_apv()
-  except: 
+except: 
         sys.exit()
 
 with SiamSIAM(max_workers=30) as rhu:
