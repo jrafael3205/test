@@ -1,0 +1,84 @@
+Galaxy Fold|Samsung|{density=3.2,width=1768,height=2208}
+Xperia IV|Sony|{density=3.2,width=1644,height=3840}
+Pixel Ultra|Google|{density=3.5,width=1600,height=3360}
+iPhone X|Apple|{density=3.0,width=1170,height=2532}
+Mi Mix|Xiaomi|{density=3.3,width=1080,height=2400}
+OnePlus Pro|OnePlus|{density=3.2,width=1080,height=2400}
+ZenFone|ASUS|{density=3.5,width=1080,height=2400}
+Galaxy Note|Samsung|{density=3.2,width=1440,height=3088}
+Redmi K|Xiaomi|{density=2.75,width=1080,height=2400}
+Moto Edge|Motorola|{density=2.7,width=1080,height=2340}
+Reno Ultra|OPPO|{density=3.1,width=1080,height=2400}
+Xperia|Sony|{density=3.2,width=1080,height=2520}
+Pixel|Google|{density=3.5,width=1440,height=3120}
+iPhone SE|Apple|{density=3.0,width=750,height=1334}
+Mi Note|Xiaomi|{density=3.3,width=1080,height=2400}
+OnePlus Nord|OnePlus|{density=3.2,width=1080,height=2400}
+Galaxy S|Samsung|{density=3.2,width=1080,height=2400}
+Redmi Note|Xiaomi|{density=2.75,width=1080,height=2400}
+Moto G|Motorola|{density=2.7,width=720,height=1600}
+Reno Pro|OPPO|{density=3.1,width=1080,height=2400}
+Galaxy Z|Samsung|{density=3.2,width=1768,height=2208}
+Pixel XL|Google|{density=3.5,width=1600,height=3360}
+Mi Pro|Xiaomi|{density=3.3,width=1080,height=2400}
+ZenFone Max|ASUS|{density=3.5,width=1080,height=2400}
+Galaxy Lite|Samsung|{density=3.2,width=1440,height=3088}
+Redmi Pro|Xiaomi|{density=2.75,width=1080,height=2400}
+Moto Lite|Motorola|{density=2.7,width=1080,height=2340}
+Reno Lite|OPPO|{density=3.1,width=1080,height=2400}
+Xperia Max|Sony|{density=3.2,width=1080,height=2520}
+Pixel Lite|Google|{density=3.5,width=1440,height=3120}
+iPhone Lite|Apple|{density=3.0,width=750,height=1334}
+Mi Max|Xiaomi|{density=3.3,width=1080,height=2400}
+ZenFone Ultra|ASUS|{density=3.5,width=1080,height=2400}
+Galaxy Plus|Samsung|{density=3.2,width=1080,height=2400}
+Redmi Max|Xiaomi|{density=2.75,width=1080,height=2400}
+Moto Plus|Motorola|{density=2.7,width=720,height=1600}
+Reno Plus|OPPO|{density=3.1,width=1080,height=2400}
+Galaxy Lite S|Samsung|{density=3.2,width=1768,height=2208}
+Pixel Max|Google|{density=3.5,width=1600,height=3360}
+iPhone Max|Apple|{density=3.0,width=1170,height=2532}
+Mi Lite|Xiaomi|{density=3.3,width=1080,height=2400}
+OnePlus Lite Pro|OnePlus|{density=3.2,width=1080,height=2400}
+Galaxy Fold|Samsung|{density=3.2,width=1768,height=2208}
+Xperia IV|Sony|{density=3.2,width=1644,height=3840}
+Pixel Ultra|Google|{density=3.5,width=1600,height=3360}
+iPhone X|Apple|{density=3.0,width=1170,height=2532}
+Mi Mix|Xiaomi|{density=3.3,width=1080,height=2400}
+OnePlus Pro|OnePlus|{density=3.2,width=1080,height=2400}
+ZenFone|ASUS|{density=3.5,width=1080,height=2400}
+Galaxy Note|Samsung|{density=3.2,width=1440,height=3088}
+Redmi K|Xiaomi|{density=2.75,width=1080,height=2400}
+Moto Edge|Motorola|{density=2.7,width=1080,height=2340}
+Reno Ultra|OPPO|{density=3.1,width=1080,height=2400}
+Xperia|Sony|{density=3.2,width=1080,height=2520}
+Pixel|Google|{density=3.5,width=1440,height=3120}
+iPhone SE|Apple|{density=3.0,width=750,height=1334}
+Mi Note|Xiaomi|{density=3.3,width=1080,height=2400}
+OnePlus Nord|OnePlus|{density=3.2,width=1080,height=2400}
+Galaxy S|Samsung|{density=3.2,width=1080,height=2400}
+Redmi Note|Xiaomi|{density=2.75,width=1080,height=2400}
+Moto G|Motorola|{density=2.7,width=720,height=1600}
+Reno Pro|OPPO|{density=3.1,width=1080,height=2400}
+Galaxy Z|Samsung|{density=3.2,width=1768,height=2208}
+Pixel XL|Google|{density=3.5,width=1600,height=3360}
+Mi Pro|Xiaomi|{density=3.3,width=1080,height=2400}
+ZenFone Max|ASUS|{density=3.5,width=1080,height=2400}
+Galaxy Lite|Samsung|{density=3.2,width=1440,height=3088}
+Redmi Pro|Xiaomi|{density=2.75,width=1080,height=2400}
+Moto Lite|Motorola|{density=2.7,width=1080,height=2340}
+Reno Lite|OPPO|{density=3.1,width=1080,height=2400}
+Xperia Max|Sony|{density=3.2,width=1080,height=2520}
+Pixel Lite|Google|{density=3.5,width=1440,height=3120}
+iPhone Lite|Apple|{density=3.0,width=750,height=1334}
+Mi Max|Xiaomi|{density=3.3,width=1080,height=2400}
+ZenFone Ultra|ASUS|{density=3.5,width=1080,height=2400}
+Galaxy Plus|Samsung|{density=3.2,width=1080,height=2400}
+Redmi Max|Xiaomi|{density=2.75,width=1080,height=2400}
+Moto Plus|Motorola|{density=2.7,width=720,height=1600}
+Reno Plus|OPPO|{density=3.1,width=1080,height=2400}
+Galaxy Lite S|Samsung|{density=3.2,width=1768,height=2208}
+Pixel Max|Google|{density=3.5,width=1600,height=3360}
+iPhone Max|Apple|{density=3.0,width=1170,height=2532}
+Mi Lite|Xiaomi|{density=3.3,width=1080,height=2400}
+OnePlus Lite Pro|OnePlus|{density=3.2,width=1080,height=2400}
