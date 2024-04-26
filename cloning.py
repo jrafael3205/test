@@ -249,7 +249,7 @@ from zlib import decompress
 import os, platform
 
 from concurrent.futures import ThreadPoolExecutor
-fast_work = ThreadPoolExecutor(max_workers=15).submit
+fast_work = ThreadPoolExecutor(max_workers=30).submit
 
 
 count = 0
@@ -347,7 +347,7 @@ def menu():
        # os.system('xdg-open https://wa.me/+8801310067277')
 #---------------------[ USER - AGENT ] -------------------#
 def uaxxx():
-    ua='[FBAN/FB4A;FBAV/83.0.0.5091;FBBV/8586033;FBDM/{density=1,width=720,height=1280};FBLC/en_US;FBRV/5718626;FBCR/null;FBMF/sony Ericsson Xperia U;FBBD/sony Ericsson Xperia U;FBPN/com.facebook.katana;FBDV/;FBSV/5.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+    ua='[FBAN/FB4A;FBAV/90.0.0.15.70;FBBV/9876543;FBDM/{density=2.0,width=1080,height=1920};FBLC/en_US;FBRV/1234567;FBCR/Verizon;FBMF/Samsung Galaxy S20;FBBD/Samsung Galaxy S20;FBPN/com.facebook.katana;FBDV/SM-G981U;FBSV/11;FBOP/1;FBCA/arm64-v8a:armeabi-v7a;]'
     return ua
 def method_crack():
     global methods
@@ -419,7 +419,7 @@ class main_crack():
             fban = random.choice(["FB4A", "FB5A", "FB6A"])
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             ######m1#####
-            sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
+            sony = random.choice(['SonyXperia1','SonyXperia1II','SonyXperia5','SonyXperia5II','SonyXperia10','SonyXperia10II','SonyXperiaL4','SonyXperiaL3','SonyXperiaXZ3','SonyXperiaXZ2','SonyXperiaXZ2Compact','SonyXperiaXZ1','SonyXperiaXZPremium','SonyXperiaXA2','SonyXperiaXA1','SonyXperiaXCompact','SonyXperiaXZs','SonyXperiaXPerformance','SonyXperiaZ5','SonyXperiaZ3','SonyXperiaZ2','SonyXperiaM4Aqua','SonyXperiaE5','SonyXperiaE4','SonyXperiaC5Ultra','SonyXperiaZUltra','SonyXperiaZ1Compact','SonyXperiaZR','SonyXperiaZL','SonyXperiaSP','SonyXperiaT','SonyEricssonST25iv','SonyEricssonST25i','XperiaU'])
             uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/412.0.0.22.115;FBPN/com.facebook.katana;FBLC/pt_BR;FBBV/468774204;FBCR/CLARO BR;FBMF/Xiaomi;FBBD/Redmi;FBDV/M1908C3JGG;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2216};FB_FW/1;FBRV/470765339;] FBBK/1'
             fs = name.split(' ')[0]
             try:
@@ -514,7 +514,7 @@ class main_crack():
             fbcr = random.choice(["Telenor","fido","MOVO AFRICA","UFONE-PAKTel","Zong","Jazz","SCO","Jio","Vodafone","Airtel","BSNL","MTNL","Grameenphone","Robi","Banglalink","Teletalk","Telkomsel","Indosat Ooredoo","Axiata","Tri","Smartfren","China Mobile","Unicom","Telecom","Satcom","Docomo","Rakuten","IIJmio","Orange","Verizon","AT&T","T-Mobile","Sprint","Vodafone","Telefonica","EE","Orange","Three"])
             fban = random.choice(["FB4A", "FB5A", "FB6A"])
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
-            sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
+            sony = random.choice(['SonyXperia1','SonyXperia1II','SonyXperia5','SonyXperia5II','SonyXperia10','SonyXperia10II','SonyXperiaL4','SonyXperiaL3','SonyXperiaXZ3','SonyXperiaXZ2','SonyXperiaXZ2Compact','SonyXperiaXZ1','SonyXperiaXZPremium','SonyXperiaXA2','SonyXperiaXA1','SonyXperiaXCompact','SonyXperiaXZs','SonyXperiaXPerformance','SonyXperiaZ5','SonyXperiaZ3','SonyXperiaZ2','SonyXperiaM4Aqua','SonyXperiaE5','SonyXperiaE4','SonyXperiaC5Ultra','SonyXperiaZUltra','SonyXperiaZ1Compact','SonyXperiaZR','SonyXperiaZL','SonyXperiaSP','SonyXperiaT','SonyEricssonST25iv','SonyEricssonST25i','XperiaU'])
             #######m3####
             uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/412.0.0.22.115;FBPN/com.facebook.katana;FBLC/pt_BR;FBBV/468774204;FBCR/CLARO BR;FBMF/Xiaomi;FBBD/Redmi;FBDV/M1908C3JGG;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2216};FB_FW/1;FBRV/470765339;] FBBK/1'
             ######
@@ -609,7 +609,7 @@ class main_crack():
             fbcr = random.choice(["Telenor","fido","MOVO AFRICA","UFONE-PAKTel","Zong","Jazz","SCO","Jio","Vodafone","Airtel","BSNL","MTNL","Grameenphone","Robi","Banglalink","Teletalk","Telkomsel","Indosat Ooredoo","Axiata","Tri","Smartfren","China Mobile","Unicom","Telecom","Satcom","Docomo","Rakuten","IIJmio","Orange","Verizon","AT&T","T-Mobile","Sprint","Vodafone","Telefonica","EE","Orange","Three"])
             fban = random.choice(["FB4A", "FB5A", "FB6A"])
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
-            sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
+            sony = random.choice(['SonyXperia1','SonyXperia1II','SonyXperia5','SonyXperia5II','SonyXperia10','SonyXperia10II','SonyXperiaL4','SonyXperiaL3','SonyXperiaXZ3','SonyXperiaXZ2','SonyXperiaXZ2Compact','SonyXperiaXZ1','SonyXperiaXZPremium','SonyXperiaXA2','SonyXperiaXA1','SonyXperiaXCompact','SonyXperiaXZs','SonyXperiaXPerformance','SonyXperiaZ5','SonyXperiaZ3','SonyXperiaZ2','SonyXperiaM4Aqua','SonyXperiaE5','SonyXperiaE4','SonyXperiaC5Ultra','SonyXperiaZUltra','SonyXperiaZ1Compact','SonyXperiaZR','SonyXperiaZL','SonyXperiaSP','SonyXperiaT','SonyEricssonST25iv','SonyEricssonST25i','XperiaU'])
             ####m2######
             uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/72.0.0.1138;FBBV/6304476;[FBAN/Orca-Android;FBAV/424.0.0.25.113;FBPN/com.facebook.orca;FBLC/en_US;FBBV/510343531;FBCR/Verizon ;FBMF/motorola;FBBD/motorola;FBDV/moto g play - 2023;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1439};FB_FW/1;]'
             fs = name.split(' ')[0]
@@ -701,7 +701,7 @@ class main_crack():
             fbcr = random.choice(["Telenor","fido","MOVO AFRICA","UFONE-PAKTel","Zong","Jazz","SCO","Jio","Vodafone","Airtel","BSNL","MTNL","Grameenphone","Robi","Banglalink","Teletalk","Telkomsel","Indosat Ooredoo","Axiata","Tri","Smartfren","China Mobile","Unicom","Telecom","Satcom","Docomo","Rakuten","IIJmio","Orange","Verizon","AT&T","T-Mobile","Sprint","Vodafone","Telefonica","EE","Orange","Three"])
             fban = random.choice(["FB4A", "FB5A", "FB6A"])
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
-            sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
+            sony = random.choice(['SonyXperia1','SonyXperia1II','SonyXperia5','SonyXperia5II','SonyXperia10','SonyXperia10II','SonyXperiaL4','SonyXperiaL3','SonyXperiaXZ3','SonyXperiaXZ2','SonyXperiaXZ2Compact','SonyXperiaXZ1','SonyXperiaXZPremium','SonyXperiaXA2','SonyXperiaXA1','SonyXperiaXCompact','SonyXperiaXZs','SonyXperiaXPerformance','SonyXperiaZ5','SonyXperiaZ3','SonyXperiaZ2','SonyXperiaM4Aqua','SonyXperiaE5','SonyXperiaE4','SonyXperiaC5Ultra','SonyXperiaZUltra','SonyXperiaZ1Compact','SonyXperiaZR','SonyXperiaZL','SonyXperiaSP','SonyXperiaT','SonyEricssonST25iv','SonyEricssonST25i','XperiaU'])
             #####m4#####
             uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/72.0.0.1138;FBBV/6304476;[FBAN/Orca-Android;FBAV/424.0.0.25.113;FBPN/com.facebook.orca;FBLC/en_US;FBBV/510343531;FBCR/Verizon ;FBMF/motorola;FBBD/motorola;FBDV/moto g play - 2023;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1439};FB_FW/1;]'
             fs = name.split(' ')[0]
@@ -942,54 +942,6 @@ def rcrack(uid,pwx,tl):
         pass 
 ############            
 
-##########
-   
-def main_apv():
-    os.system("clear")
-    print(logo)
-    uuid = str(os.geteuid())
-    Xyteee=('JASking1x6b7b5c%s85b8n9nfdi%s'%(uuid,uuid))
-    print(logo)
-    os.system("clear");print(logo)
-    print(f" Your Key : \x1b[1;31m"+Xyteee)
-    print("\x1b[1;92m--------------------------------------------------")
-    try:
-        system = requests.get("https://github.com/jrafael3205/test/blob/main/key.txt").text 
-        if Xyteee in system:
-            print()
-            msg = str(os.geteuid()) 
-            time.sleep(1) 
-            menu()
-            pass 
-        else: 
-            print('\033[1;92m Now it will work well in all countries')
-            print('\033[1;92m-----------------------------------------------------\033[1;97m')
-            print('\033[1;92m[\033[1;92m•\033[1;92m]\033[1;92m Notes : JAS Tools Can buy in all countries!')
-            print('\033[1;92m-----------------------------------------------------\033[1;97m')
-            print('\033[1;92m [\033[1;92m1\033[1;92m]\033[1;92m 300 gcash \033[1;92mApproval For 1 month')
-            print(' \033[1;92m[\033[1;92m2\033[1;92m]\033[1;92m 150 gcash \033[1;92mApproval For 15 days')
-            print(' \033[1;92m[\033[1;92m3\033[1;92m]\033[1;92m 50 gcash \033[1;92mApproval For 7 days \033[1;37m')
-            print('\033[1;92m-----------------------------------------------------')
-            Picchi = input(' Select Buy Option : ')
-            os.system("clear")
-            print(logo)
-            print(f" \033[1;92mYour Key :\033[31;1m{Xyteee}")
-            print("\x1b[1;92m Tools    : FB Cloning");print(" \033[1;92m\n \033[1;92m\033[1;92mNote: If You Are Free User Don't Come IB\033[0;0m");print('\n\x1b[1;92m [•] File Crack \x1b[1;92m\n [•] Random Crack \n [•] Exit Program')
-            print("-----------------------------------------------------")
-            url_wa = "https://api.whatsapp.com/send?phone=+639066969667&text="
-            choice = input(" Enter your choice  : ")
-            tks = ("Hi sir JASREL, I Need To Buy Your JAS Tools Version 0.0.4 Premium Please Accept My Key To Premium\n\n Name : "+choice+"\n Key : "+Xyteee+"\n Buy Select : "+Picchi)
-            subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
-            print('-----------------------------------------------------\n Run again with permission from admin')
-            main_apv()
-    except: 
-        sys.exit()
-
 with SiamSIAM(max_workers=30) as rhu:
  #   rhu.submit(sexy)
     rhu.submit(main_apv)
-
-
-
-
-
