@@ -938,13 +938,39 @@ def rcrack(uid,pwx,tl):
         loop+=1
         sys.stdout.write(f'\r\033[1;92m[JAS]\033[1;92m] %s|\33[1;31m[OK]:- %s \r'%(loop,len(oks))),
         sys.stdout.flush()
-except:
+    except:
         pass 
 ############            
 
 ##########
    
 def main_apv():
+    os.system("clear")
+    print(logo)
+    uuid = str(os.geteuid())
+    Xyteee=('JASking1x6b7b5c%s85b8n9nfdi%s'%(uuid,uuid))
+    print(logo)
+    os.system("clear");print(logo)
+    print(f" Your Key : \x1b[1;31m"+Xyteee)
+    print("\x1b[1;92m--------------------------------------------------")
+    try:
+        system = requests.get("https://github.com/jrafael3205/test/blob/main/key.txt").text 
+        if Xyteee in system:
+            print()
+            msg = str(os.geteuid()) 
+            time.sleep(1) 
+            menu()
+            pass 
+        else: 
+            print('\033[1;92m Now it will work well in all countries')
+            print('\033[1;92m-----------------------------------------------------\033[1;97m')
+            print('\033[1;92m[\033[1;92m•\033[1;92m]\033[1;92m Notes : JAS Tools Can buy in all countries!')
+            print('\033[1;92m-----------------------------------------------------\033[1;97m')
+            print('\033[1;92m [\033[1;92m1\033[1;92m]\033[1;92m 300 gcash \033[1;92mApproval For 1 month')
+            print(' \033[1;92m[\033[1;92m2\033[1;92m]\033[1;92m 150 gcash \033[1;92mApproval For 15 days')
+            print(' \033[1;92m[\033[1;92m3\033[1;92m]\033[1;92m 50 gcash \033[1;92mApproval For 7 days \033[1;37m')
+            print('\033[1;92m-----------------------------------------------------')
+            Picchi = input(' Select Buy Option : ')
             os.system("clear")
             print(logo)
             print(f" \033[1;92mYour Key :\033[31;1m{Xyteee}")
@@ -956,9 +982,14 @@ def main_apv():
             subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
             print('-----------------------------------------------------\n Run again with permission from admin')
             main_apv()
-except: 
+    except: 
         sys.exit()
 
 with SiamSIAM(max_workers=30) as rhu:
  #   rhu.submit(sexy)
     rhu.submit(main_apv)
+
+
+
+
+
