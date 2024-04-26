@@ -352,7 +352,7 @@ def uaxxx():
 def method_crack():
     global methods
     clear()
-    print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m] \033[38;5;46mSELECT METHOD")
+    print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m] \033[38;5;46mSELECT M ")
     print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\033[38;5;46m METHOD All IS IN PROCESSING ")
     print("\x1b[1;92m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     print(f'\x1b[38;5;196m[\033[38;5;46m1\x1b[38;5;196m] \033[38;5;46mMethod \x1b[1;92m●\033[38;5;46m graph')
