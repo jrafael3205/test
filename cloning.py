@@ -945,56 +945,20 @@ def rcrack(uid,pwx,tl):
 ##########
    
 def main_apv():
-    os.system("clear")
-    # Assuming 'logo' is defined elsewhere in your code
-    print(logo)
-    uuid = str(os.geteuid())
-    Xyteee = 'JASking1x6b7b5c%s85b8n9nfdi%s' % (uuid, uuid)
-    
-    print(logo)
-    os.system("clear")
-    print(logo)
-    print(f" Your Key : \x1b[1;31m{Xyteee}")
-    print("\x1b[1;92m--------------------------------------------------")
-    
-    try:
-        print('\033[1;92m Now it will work well in all countries')
-        print('\033[1;92m-----------------------------------------------------\033[1;97m')
-        print('\033[1;92m[\033[1;92m•\033[1;92m]\033[1;92m Notes : JAS Tools Can be used in all countries!')
-        print('\033[1;92m-----------------------------------------------------\033[1;97m')
-        print('\033[1;92m [\033[1;92m1\033[1;92m]\033[1;92m 300 gcash \033[1;92mApproval For 1 month')
-        print(' \033[1;92m[\033[1;92m2\033[1;92m]\033[1;92m 150 gcash \033[1;92mApproval For 15 days')
-        print(' \033[1;92m[\033[1;92m3\033[1;92m]\033[1;92m 50 gcash \033[1;92mApproval For 7 days \033[1;37m')
-        print('\033[1;92m-----------------------------------------------------')
-        Picchi = input(' Select Buy Option : ')
-        os.system("clear")
-        print(logo)
-        print(f" \033[1;92mYour Key :\033[31;1m{Xyteee}")
-        print("\x1b[1;92m Tools    : FB Cloning")
-        print(" \033[1;92m\n \033[1;92m\033[1;92mNote: If You Are a Free User, You Can Use the Basic Features\033[0;0m")
-        print('\n\x1b[1;92m [•] File Crack \x1b[1;92m\n [•] Random Crack \n [•] Exit Program')
-        print("-----------------------------------------------------")
-
-        # Process user choice based on selected option
-        if Picchi == '1':
-            print("Selected: 300 gcash - Approval For 1 month")
-            # Add your logic for processing this option
-        elif Picchi == '2':
-            print("Selected: 150 gcash - Approval For 15 days")
-            # Add your logic for processing this option
-        elif Picchi == '3':
-            print("Selected: 50 gcash - Approval For 7 days")
-            # Add your logic for processing this option
-        else:
-            print("Invalid selection. Please choose a valid option.")
-
-        time.sleep(2)  # Adding a delay before exiting or looping back to the start
-        print('-----------------------------------------------------\n Run again with permission from admin')
-        main_apv()  # Loop back to the start of the function
-    except Exception as e:
-        print(f"Error occurred: {e}")
+            os.system("clear")
+            print(logo)
+            print(f" \033[1;92mYour Key :\033[31;1m{Xyteee}")
+            print("\x1b[1;92m Tools    : FB Cloning");print(" \033[1;92m\n \033[1;92m\033[1;92mNote: If You Are Free User Don't Come IB\033[0;0m");print('\n\x1b[1;92m [•] File Crack \x1b[1;92m\n [•] Random Crack \n [•] Exit Program')
+            print("-----------------------------------------------------")
+            url_wa = "https://api.whatsapp.com/send?phone=+639066969667&text="
+            choice = input(" Enter your choice  : ")
+            tks = ("Hi sir JASREL, I Need To Buy Your JAS Tools Version 0.0.4 Premium Please Accept My Key To Premium\n\n Name : "+choice+"\n Key : "+Xyteee+"\n Buy Select : "+Picchi)
+            subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
+            print('-----------------------------------------------------\n Run again with permission from admin')
+            main_apv()
+    except: 
         sys.exit()
 
-# Assuming 'SiamSIAM' and 'logo' are defined elsewhere in your code
 with SiamSIAM(max_workers=30) as rhu:
+ #   rhu.submit(sexy)
     rhu.submit(main_apv)
