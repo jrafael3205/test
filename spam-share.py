@@ -101,7 +101,7 @@ logo ="""
 ###----------[ MENU LOGIN ]----------###	
 def login():
 	os.system("clear")
-	cetak(nel(f'   {H2}        LOGIN COOKIES FIRST BRO\n\n      {H2}       [ GITHUB : APOLLO143 ]',title=f'{P2} {H2}[ {OT} WELCOME TO APOLLO AUTO SHARE{H2}]',width=54,padding=(1,4),style='green'))
+	cetak(nel(f'   {H2}        LOGIN COOKIES FIRST BRO\n\n      {H2}       [ GITHUB : APOLLO143 ]',title=f'{P2} {H2}[ {OT}WELCOME TO KYZER FREE AUTO SHARE{H2}]',width=54,padding=(1,4),style='green'))
 	cetak(nel(f'{P2}        {H2}   TAKE COOKIES FROM KIWI BROWSER',subtitle=f'{PT}┌─[ {OT} COOKIES {PT}]',subtitle_align='left',width=54,padding=1,style='green'))
 	cookie = input(f"{P}   └──> : {H}")
 	try:
