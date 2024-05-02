@@ -163,7 +163,7 @@ def meyexudi():
   uuid = "KPL("+str(os.getuid())+"(KILLER)"+str(os.getuid())+")AXN"
   id = '-'.join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/Asif950/Aprooval/blob/main/Aprooval.txt').text
+    httpCaht = requests.get('https://github.com/jrafael3205/test/blob/main/key.txt').text
     if id in httpCaht:
       print(fuckyoursali)
       print(hedaborakarent)
