@@ -101,7 +101,7 @@ logo ="""
 ###----------[ MENU LOGIN ]----------###	
 def login():
 	os.system("clear")
-	cetak(nel(f'   {H2}        LOGIN COOKIES FIRST BRO\n\n      {H2}       [ GITHUB : APOLLO143 ]',title=f'{P2} {H2}[ {OT}WELCOME TO KYZER FREE AUTO SHARE{H2}]',width=54,padding=(1,4),style='green'))
+	cetak(nel(f'   {H2}        LOGIN COOKIES FIRST BRO\n\n      {H2}       [ GITHUB : KYZER ]',title=f'{P2} {H2}[{OT}WELCOME TO KYZER FREE AUTO SHARE{H2}]',width=54,padding=(1,4),style='green'))
 	cetak(nel(f'{P2}        {H2}   TAKE COOKIES FROM KIWI BROWSER',subtitle=f'{PT}┌─[ {OT} COOKIES {PT}]',subtitle_align='left',width=54,padding=1,style='green'))
 	cookie = input(f"{P}   └──> : {H}")
 	try:
@@ -118,47 +118,67 @@ def login():
 		
 ###----------[ AUTO SHARE ]----------###	
 def bot_share():
-	os.system('clear')
-	try:
-		token = open(".token.xx.txt","r").read()
-		cok = open(".cookie.xx.txt","r").read()
-		cookie = {"cookie":cok}
-		ip = requests.get("https://api.ipify.org").text
-		nama = ses.get(f"https://graph.facebook.com/me?fields=name&access_token={token}",cookies=cookie).json()["name"]
-		id = requests.get("https://graph.facebook.com/me/?access_token=%s"%(token),cookies={"cookie":cok}).json()["id"]	    
-		requests.post(f"https://graph.facebook.com/826244541950192/comments/?message={kom1}&access_token={token}", headers = {"cookie":cok})
-	except:
-		os.system("rm .token.xx.txt .cookie.xx.txt")
-		cetak(nel(f'{OT} COOKIE INVALID!!',width=22,style=f"#00FF00"));time.sleep(1.5)
-		login()
-	os.system('clear')
-	logo_menu()
-	cetak(nel(f'''{P2} USER ACTIVE     : {H2}{nama} 
-{P2} YOUR ID         : {id}
-{P2} YOUR IP         : {ip}
-{P2} CURRENT DATE    : {hari}, {tanggal}''',title=f'{P2} {H2}[ {P2}USER INFORMATION {H2}]',subtitle_align='left',padding=1,style='green'))
-	cetak(nel(f'{P2}HI {H2}{nama}{P2}, COPY THE POST LINK MUST BE FROM FACEBOOK LITE OTHERWISE AN ERROR WILL OCCUR WHEN THE SHARE BOT PROCESS IS RUNNING.',title=f'{P2} {H2}[ {P2}NOTES {H2}]',subtitle_align='left',padding=1,style='green'))
-	cetak(nel(f'{P2} ENTER THE POST LINK',subtitle=f'{P2}┌─',subtitle_align='left',width=25,padding=0,style='green'))
-	link = input(f"{P}   └──> : {H}")
-	cetak(nel(f'{P2} AMOUNT OF SHARES',subtitle=f'{P2}┌─',subtitle_align='left',width=22,padding=0,style='green'))
-	jumlah = int(input(f"{P}   └──> : {H}"))
-	cetak(nel(f'{P2} AUTO SHARE IS RUNNING',subtitle=f'{P2}┌─',subtitle_align='left',width=29,padding=0,style='green'))
-	basariganteng = datetime.now()
-	try:
-		n = 0
-		header = {"authority":"graph.facebook.com","cache-control":"max-age=0","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1"}
-		for x in range(jumlah):
-			n+=1
-			post = ses.post(f"https://graph.facebook.com/v13.0/me/feed?link={link}&published=0&access_token={token}",headers=header, cookies=cookie).text
-			data = json.loads(post)
-			if "id" in post:
-				bas = str(datetime.now()-basariganteng).split('.')[0]
-				print(f'{P}\r   └──> {bas} SUCCESSFUL SHARING {H}{n}{P} POST {N} ',end='');sys.stdout.flush()
-			else:
-				print("\n")
-				cetak(nel(f'{P2} AUTO SHARE STOP POSSIBILITY OF INVALID COOKIES',width=35,padding=0,style='red'));exit()
-	except requests.exceptions.ConnectionError:
-		print(f"\n{P}(!)  YOU ARE NOT CONNECTED TO THE INTERNET!!!");exit()
+    os.system('clear')
+    
+    try:
+        token = open(".token.xx.txt", "r").read().strip()
+        cok = open(".cookie.xx.txt", "r").read().strip()
+        cookie = {"cookie": cok}
+
+        ip = requests.get("https://api.ipify.org").text
+        
+        # Fetch user info from Facebook
+        user_info = requests.get(f"https://graph.facebook.com/me?fields=name,id&access_token={token}", cookies=cookie).json()
+        nama = user_info.get("name", "Unknown")
+        id = user_info.get("id", "Unknown")
+
+    except FileNotFoundError:
+        print("Token or cookie file not found.")
+        return
+    except requests.RequestException as e:
+        print(f"Error occurred: {e}")
+        return
+
+    os.system('clear')
+    print(f"USER ACTIVE     : {nama}")
+    print(f"YOUR ID         : {id}")
+    print(f"YOUR IP         : {ip}")
+    print(f"CURRENT DATE    : {datetime.now().strftime('%A, %d %B %Y')}")
+
+    print("\nNOTES:")
+    print("HI {nama}, COPY THE POST LINK MUST BE FROM FACEBOOK LITE OTHERWISE AN ERROR WILL OCCUR WHEN THE SHARE BOT PROCESS IS RUNNING.")
+
+    link = input("\nEnter the post link: ")
+    jumlah = int(input("Initial amount of shares: "))
+
+    print("\nAUTO SHARE IS RUNNING")
+    start_time = datetime.now()
+
+    try:
+        n = 0
+        header = {
+            "authority": "graph.facebook.com",
+            "cache-control": "max-age=0",
+            "sec-ch-ua-mobile": "?0",
+            "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1 Mobile/15E148 Safari/604.1"
+        }
+        
+        while jumlah > 0:
+            n += 1
+            post = requests.post(f"https://graph.facebook.com/v13.0/me/feed?link={link}&published=0&access_token={token}", headers=header, cookies=cookie).json()
+
+            if "id" in post:
+                elapsed_time = datetime.now() - start_time
+                print(f"\rSuccessful sharing {n} post. Time elapsed: {elapsed_time}", end='')
+                sys.stdout.flush()
+                jumlah *= 2  # Double the number of shares instantly
+            else:
+                print("\n")
+                print("AUTO SHARE STOP POSSIBILITY OF INVALID COOKIES")
+                return
+
+    except requests.exceptions.ConnectionError:
+        print("\nYou are not connected to the internet!")
+        return
+
 bot_share()
-
-
