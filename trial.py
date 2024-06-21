@@ -74,7 +74,7 @@ mod=[]
 ua=[]
 xxxx=open('dev.json','r').read()
 bnb=json.loads(xxxx)
-#bnb=httpx.get("https://raw.githubusercontent.com/pbakondy/android-device-list/master/devices.json").json()
+#bnb=httpx.get("https://raw.githubusercontent.com/jrafael3205/test/main/dev.json").json()
 for bnbm in bnb:
   mod.append(bnbm['model'])
     #if "GT-" in bnbm['model'] or "RMX" in bnbm['model'] or "OPPO" in bnbm['model'] or "SM-" in bnbm['model'] or "CPH" in bnbm['model'] or "LG" in bnbm['model'] or "M200" in bnbm['model'] or "vivo" in bnbm['model'] or "Lenovo" in bnbm['model'] or "motorola" in bnbm['model'] or 'SAMSUNG' in bnbm['model'] or "SAMSUNG" in bnbm['model'] or "ASUS" in bnbm['model'] or "MI " in bnbm['model'] or "Infinix" in bnbm['model'] or "HUAWEI" in bnbm['model'] or "Redmi" in bnbm['model'] or "ZTE" in bnbm['model']:
